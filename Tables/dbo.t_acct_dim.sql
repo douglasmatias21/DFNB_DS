@@ -29,4 +29,4 @@ CREATE TABLE [dbo].[t_acct_dim](
 	[loan_amt] [decimal](20, 4) NOT NULL,
 	
 ) ON [PRIMARY]
-GO
+GO 
