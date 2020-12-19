@@ -35,4 +35,4 @@ CREATE TABLE [dbo].[t_cust_branch_dim](
 
 	
 ) ON [PRIMARY]
-GO
+GO 
