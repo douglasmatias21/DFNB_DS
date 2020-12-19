@@ -1,6 +1,6 @@
 
 /*****************************************************************************************************************
-NAME:    dbo.v_tran_branch
+NAME:    dbo.v_trans_branch
 PURPOSE: Create the v_tran_branch view
 
 MODIFICATION LOG:
@@ -16,7 +16,7 @@ NOTES:
 This view shows lists the transactions with branch attributes.
 
 ******************************************************************************************************************/
-CREATE VIEW dbo.v_tran_branch AS
+CREATE VIEW dbo.v_trans_branch AS
 SELECT t.branch_id
 	  ,b.branch_name
       ,t.[tran_date]
