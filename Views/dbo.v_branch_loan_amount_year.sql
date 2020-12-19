@@ -1,4 +1,4 @@
-CREATE VIEW dbo.v_branch_loan_amt_year AS
+CREATE VIEW dbo.v_branch_loan_amount_year AS
 SELECT a.branch_id
      , b.branch_name
      , YEAR(open_date) AS 'year'
