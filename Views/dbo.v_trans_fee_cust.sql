@@ -2,7 +2,7 @@
 
 /*****************************************************************************************************************
 NAME:    dbo.v_tran_fee_cust
-PURPOSE: Create the v_tran_fee_cust view
+PURPOSE: Create the v_trans_fee_cust view
 
 MODIFICATION LOG:
 Ver      Date        Author                Description
@@ -17,7 +17,7 @@ NOTES:
 This view shows lists the transactions with respective customers attributes.
 
 ******************************************************************************************************************/
-CREATE VIEW [dbo].[v_tran_fee_cust] AS
+CREATE VIEW [dbo].[v_trans_fee_cust] AS
 SELECT c.[cust_id]
 	  ,c. [first_name] + ' ' + c.[last_name] AS Customer
 	  ,a.acct_id
