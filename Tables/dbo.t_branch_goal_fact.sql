@@ -16,14 +16,7 @@ The t_acct_fact table is a fact table that shows each account balance in a given
  
 ******************************************************************************************************************/
 -- Drop Table
-DROP TABLE t_branch_goal_fact;
-GO
 
-SET ANSI_NULLS ON;
-GO
-
-SET QUOTED_IDENTIFIER ON;
-GO
 
 CREATE TABLE t_branch_goal_fact
 (branch_goal_accumulated_id SMALLINT IDENTITY(1, 1) NOT NULL
