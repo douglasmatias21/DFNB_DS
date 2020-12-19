@@ -1,6 +1,6 @@
 /*****************************************************************************************************************
-NAME:    dbo.v_balance_on_dec31
-PURPOSE: Create the dbo.v_balance_on_dec31 view
+NAME:    dbo.v_balance_on_dec
+PURPOSE: Create the dbo.v_balance_on_dec view
 
 MODIFICATION LOG:
 Ver      Date        Author                Description
@@ -12,10 +12,10 @@ RUNTIME:
 0 min
 
 NOTES:
-This view shows the balance on December 31 per account.
+This view shows the balance on December  per account.
 
 ******************************************************************************************************************/
-CREATE VIEW dbo.v_balance_on_dec31 AS
+CREATE VIEW dbo.v_balance_on_dec AS
 SELECT acct_id
      , as_of_date --AS [Varchar(50)])
      , cur_bal
