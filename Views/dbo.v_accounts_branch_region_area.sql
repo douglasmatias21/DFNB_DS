@@ -6,8 +6,7 @@ PURPOSE: Create the dbo.v_t_acct_dim_branch_region_area view
 MODIFICATION LOG:
 Ver      Date        Author                Description
 -----   ----------   ----------------      -------------------------------------------------------------------------------
-1.0     12/15/2020   DOUGLAS MATIAS       1. Built this table for IT240 DFNB Project1
-
+1.0     12/15/2020   DOUGLAS MATIAS       1. Built this table for IT240 DFNB Project2
 
 RUNTIME: 
 0 min
