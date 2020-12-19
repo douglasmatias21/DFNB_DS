@@ -33,6 +33,6 @@ SELECT c.cust_id
 
 SELECT *  FROM dbo.t_acct_dim c
 
-GO
+GO 
 
 
