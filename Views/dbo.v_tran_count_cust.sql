@@ -48,4 +48,4 @@ AS
              , t.branch_id
              , b.branch_name
              , d.tran_type_desc;
-GO
+GO 
