@@ -24,4 +24,4 @@ CREATE TABLE [dbo].[t_branch_dim](
 ,[region_id] [int] NOT NULL
 	
 ) ON [PRIMARY]
-GO
+GO 
