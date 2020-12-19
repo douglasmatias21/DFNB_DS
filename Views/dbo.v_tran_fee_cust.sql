@@ -1,4 +1,22 @@
 
+
+/*****************************************************************************************************************
+NAME:    dbo.v_tran_fee_cust
+PURPOSE: Create the v_tran_fee_cust view
+
+MODIFICATION LOG:
+Ver      Date        Author                Description
+-----   ----------   ----------------      -------------------------------------------------------------------------------
+1.0     12/18/2020   DOUGLAS MATIAS       1. Built this table for IT240 DFNB Project2
+
+
+RUNTIME: 
+0 min
+
+NOTES:
+This view shows lists the transactions with respective customers attributes.
+
+******************************************************************************************************************/
 CREATE VIEW [dbo].[v_tran_fee_cust] AS
 SELECT c.[cust_id]
 	  ,c. [first_name] + ' ' + c.[last_name] AS Customer
