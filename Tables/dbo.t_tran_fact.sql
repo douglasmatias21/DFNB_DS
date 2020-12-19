@@ -44,4 +44,4 @@ CREATE TABLE [dbo].[t_tran_fact](
 GO
 
 USE [DFNB2]
-GO
+GO 
