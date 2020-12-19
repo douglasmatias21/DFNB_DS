@@ -30,5 +30,5 @@ CREATE TABLE [dbo].[t_area_dim](
 	 [acct_area_id] [int] NOT NULL
 
 	
-) ON [PRIMARY]
+) ON [PRIMARY] 
 GO
