@@ -32,4 +32,4 @@ CREATE TABLE [dbo].[t_tran_type_dim](
 	[tran_fee_prct] [decimal](4,3) NOT NULL
 	
 ) ON [PRIMARY]
-GO
+GO 
