@@ -25,3 +25,4 @@ SELECT acct_id
         , as_of_date
         , cur_bal;
 
+ 
