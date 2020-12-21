@@ -32,4 +32,4 @@ CREATE TABLE [dbo].[t_region_dim](
 
 	
 ) ON [PRIMARY]
-GO 
+GO  
