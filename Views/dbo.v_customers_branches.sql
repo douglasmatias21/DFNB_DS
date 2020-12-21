@@ -23,4 +23,4 @@ SELECT cust_id
      , branch_name
   FROM DFNB2.dbo.t_cust_dim AS c
        INNER JOIN
-       dbo.t_branch_dim AS b ON b.branch_id = c.pri_branch_id; 
+       dbo.t_branch_dim AS b ON b.branch_id = c.pri_branch_id;  
