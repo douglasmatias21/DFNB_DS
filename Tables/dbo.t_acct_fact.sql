@@ -34,3 +34,4 @@ CREATE TABLE [dbo].[t_acct_fact](
 	
 ) ON [PRIMARY]
 GO  
+ 
