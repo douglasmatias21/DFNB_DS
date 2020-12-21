@@ -295,3 +295,4 @@ SELECT DISTINCT
      , acct_area_id AS L
   FROM dbo.stg_p1 AS stg
  ORDER BY acct_region_id;
+ 
