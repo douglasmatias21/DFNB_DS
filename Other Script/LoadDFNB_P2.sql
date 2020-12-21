@@ -41,7 +41,7 @@ INSERT INTO dbo.t_tran_type_dim
 SELECT DISTINCT 
 	[tran_type_id],
 	[tran_type_code],
-	[tran_type_desc],
+	[tran_type_desc], 
 	[tran_fee_prct]
   FROM dbo.stg_p2 AS stg
  ORDER BY tran_type_id;
