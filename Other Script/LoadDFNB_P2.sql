@@ -81,5 +81,5 @@ SELECT DISTINCT
      , cur_cust_req_ind
      , tran_amt
      , tran_fee_amt
-  FROM dbo.stg_p2 AS stg
+  FROM dbo.stg_p2 AS stg 
  ORDER BY acct_id;
