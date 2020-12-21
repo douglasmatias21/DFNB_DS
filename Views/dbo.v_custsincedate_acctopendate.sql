@@ -35,4 +35,4 @@ SELECT *  FROM dbo.t_acct_dim c
 
 GO 
 
-
+ 
