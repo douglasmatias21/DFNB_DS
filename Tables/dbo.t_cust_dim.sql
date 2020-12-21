@@ -38,4 +38,4 @@ CREATE TABLE [dbo].[t_cust_dim](
 	[cust_add_id] [int] NOT NULL,
 	
 ) ON [PRIMARY]
-GO 
+GO  
