@@ -46,4 +46,4 @@ GO
 --	[cust_add_id] [int] NOT NULL,
 --	[cust_add_lat] [decimal](16, 12) NOT NULL,
 --	[cust_add_lon] [decimal](16, 12) NOT NULL,
---	[cust_add_type] [varchar](1) NOT NULL, 
+--	[cust_add_type] [varchar](1) NOT NULL,  
