@@ -25,3 +25,4 @@ CREATE TABLE [dbo].[t_branch_dim](
 	
 ) ON [PRIMARY]
 GO  
+ 
