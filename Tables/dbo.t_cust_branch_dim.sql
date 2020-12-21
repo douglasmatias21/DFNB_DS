@@ -19,7 +19,7 @@ The t_acct_fact table is a fact table that shows each account balance in a given
 
 DROP TABLE [dbo].[t_cust_branch_dim]
 GO
-
+ 
 SET ANSI_NULLS ON
 GO
 
