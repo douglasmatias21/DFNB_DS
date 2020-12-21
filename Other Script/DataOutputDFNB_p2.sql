@@ -36,3 +36,4 @@ SELECT v.branch_name
  ORDER BY v.[Count of transactions]
         , v.branch_name
         , v.tran_type_desc;
+ 
